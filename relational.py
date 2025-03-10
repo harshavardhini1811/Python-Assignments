@@ -1,0 +1,10 @@
+def relational_operators(a, b):
+    print ("a == b:", a == b)
+    print ("a != b:", a != b)
+    print ("a >= b:", a >= b)
+    print ("a <= b:", a <= b)
+    print ("a < b:", a < b)
+    print ("a > b:", a > b)
+x = int(input("enter a first number:"))
+y = int(input("enter a second number:"))
+relational_operators(x, y )
